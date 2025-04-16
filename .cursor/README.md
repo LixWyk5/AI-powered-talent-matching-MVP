@@ -89,6 +89,7 @@ AI-powered-talent-matching-MVP/
                 });
         Make sure the MySQL service is started, the first run will automatically write the data table and example data.
 
+
 ## Install Dependencies
     # Frontend
         cd frontend
