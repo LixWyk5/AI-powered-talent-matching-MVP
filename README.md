@@ -28,7 +28,7 @@ An AI-powered job and talent matching web application that helps employers find 
 | JobWriterBot | Help with recruiter write job descriptions job |
 
 ## Project Structure
-
+```bash
 AI-powered-talent-matching-MVP/
 │
 ├── .cursor/                           # `Hackathon required helper folder`
@@ -72,8 +72,9 @@ AI-powered-talent-matching-MVP/
 │   └──  yarn.lock / package-lock.json # Dependency lock files
 │
 └── .gitignore                       # Git ignore rules
-
-`Special Notes`
+```
+## Special Notes
+```text
     1. Create an `backend/.env` and write the openai API Key to ensure API connectivity.
        Content Example:
                 OPENAI_API_KEY=sk-xxxxxxxxxxxx
@@ -88,8 +89,7 @@ AI-powered-talent-matching-MVP/
                 queueLimit: 0
                 });
         Make sure the MySQL service is started, the first run will automatically write the data table and example data.
-
-
+```
 ## Install Dependencies
     # Frontend
         cd frontend
